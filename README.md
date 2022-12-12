@@ -1,1 +1,1 @@
-# APIRestFull
+Projeto para fins de estudo de API's Rest Full
