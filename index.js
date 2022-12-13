@@ -31,6 +31,7 @@ app.delete('/usuarios/:id', (req,res) => {
   const index = usuarios.findIndex(user => user.id === ~~req.params.id)
   usuarios.splice(index, 1)
   res.send('Usuário deletado com sucesso!')
+  res.status(204).send({ mensagem: 'Usuário deletado com sucesso!'})
 })
 
 app.listen(port, () => {
