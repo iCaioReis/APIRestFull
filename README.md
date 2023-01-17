@@ -1,1 +1,1 @@
-Projeto para fins de estudo de API's Rest Full
+Estudo de rotas com Sequelize ORM
